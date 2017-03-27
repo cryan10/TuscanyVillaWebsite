@@ -1,0 +1,110 @@
+﻿body {
+}
+/*Heading Styles*/
+
+div.page-header{
+    margin-top: 0px;
+    background-color: #fff6f0;
+    padding-top:3px;
+    margin-bottom: 0px;
+}
+
+h1.container {
+    margin-top: 0px;
+    margin-bottom:25px;
+    color: #f62525;
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+    font-weight:200;
+    background-color: #fff6f0;
+    padding-top:5px;
+}
+
+/*Navbar Styles*/
+nav#navhead.navbar.navbar-static-top{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    color: #fff6f0 ;
+    background-color: #f62525;
+}
+
+#navhead a{
+    color: #fff6f0;
+}
+
+#navhead a:hover{
+    background-color: #ed1414;
+}
+
+/*Opening image*/
+.mainSec{
+    margin-top: 0px;
+    background-image: url(../Images/tuscany-villas-sant-anna.jpg);
+    background-size:cover;
+}
+#LargeImage{
+    color: #fff6f0;
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    text-shadow: 2px 2px 2px #aaa;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+/*Body of Website*/
+#descriptions{
+    color: #f62525;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#ratings{
+    color: #fff6f0;
+    background-color: #f62525;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+h4.container#descriptions{
+    text-align: right;
+    font-size: 12px;
+}
+
+
+bondingEvents.thumbnail img {
+    height:250px;
+    width:100%;
+}
+
+.sampleVillas {
+    color: #f62525;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Footer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff6f0 ;
+    background-color: #f62525;
+}
+
+#map{
+    color: #f62525;
+    background-color:#fff6f0;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
