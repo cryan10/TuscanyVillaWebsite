@@ -1,0 +1,169 @@
+<head>
+    <title>Tuscany Villa</title>
+    <meta charset="utf-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Pathway+Gothic+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+        .fa-facebook {
+            color: white;
+        }
+
+        .fa-instagram {
+            color: white;
+        }
+
+        .fa-snapchat-ghost {
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!--Header-->
+    <div class="page-header">
+        <h1 class="container" align="center"> Tuscany Villa </h1>
+    </div>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-static-top" id="navhead">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"> <a href="#">Home</a></li>
+                    <li><a href="http://www.tuscanyvilla.com/AboutUs">About Us</a> </li>
+                    <li><a href="http://www.tuscanyvilla.com/OurRooms">Our Rooms</a> </li>
+                    <li><a href="http://www.tuscanyvilla.com/MakeAReservation">Book Now</a> </li>
+                    <li><a href="http://www.tuscanyvilla.com/OurPolicies">Our Policies</a> </li>
+                    <li><a href="http://www.tuscanyvilla.com/Contact">Contact Us</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--LargeFocalImage-->
+    <div class="jumbotron mainSec">
+        <h2 class="container" align="center" id="LargeImage"> Feels Like Home </h2>
+    </div>
+
+    <!--Villas To Rent-->
+    <div class="row container sampleVillas">
+        <div class="col-sm-12 col-md-3" id="descriptions">
+            <p>Our Beautiful Villas: </p>
+        </div>
+        <!--Santa Anna Villa-->
+        <div class="col-sm-12 col-md-3">
+            <img src="Images/3b-348x348.jpg" alt="3B" />
+            <div class="caption">
+                <h3>Santa Anna</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ligula mattis massa varius consectetur.</p>
+            </div>
+        </div>
+        <!--Santa Maria Villa-->
+        <div class="col-sm-12 col-md-3">
+            <img src="Images/42-348x348.jpg" alt="42" />
+            <div class="caption">
+                <h3>Santa Maria</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ligula mattis massa varius consectetur.</p>
+            </div>
+        </div>
+        <!--Santa Clara Villa-->
+        <div class="col-sm-12 col-md-3">
+            <img src="Images/314-348x348.jpg" alt="314" />
+            <div class="caption">
+                <h3>Santa Clara</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ligula mattis massa varius consectetur.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Special Events-->
+    <div class="row container bondingEvents">
+
+        <p class="col-sm-12 col-md-3" id="descriptions">
+            Let us help you plan your special event!
+        </p>
+        <!--Family image-->
+        <div class="col-sm-12 col-md-3">
+            <div class="thumbnail">
+                <img src="Images/Family.jpg" alt="family" />
+            </div>
+        </div>
+        <!--Friends image-->
+        <div class="col-sm-12 col-md-3">
+            <div class="thumbnail">
+                <img src="Images/Friends.jpg" alt="friends" />
+            </div>
+        </div>
+        <!--Wedding image-->
+        <div class="col-sm-12 col-md-3">
+            <div class="thumbnail">
+                <img src="Images/wedding.jpg" alt="wedding" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row container MapAndRatings">
+        <!--Ratings box-->
+        <div class="col-sm-12 col-md-4" id="ratings">
+            <p> Voted Best Vacation Spot by USA Today! </p>
+        </div>
+        <!--Map of Area-->
+        <div class="col-sm-12 col-md-4" id="map">
+            <div class="thumbnail">
+                <img src="Images/Versilia.jpg" alt="Versilia" />
+            </div>
+        </div>
+        <!--Media Endorsements-->
+        <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+                <img src="Images/box_partners.png" alt="box_partners" />
+            </div>
+        </div>
+    </div>
+
+    <!--Footer with Social Media Links-->
+    <div class="row container Footer">
+        <div class="col-md-6">
+            <p> Copyright 2017 by Tuscany Villa, INC. All rights reserved. </p>
+        </div>
+        <div class="col-md-6">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+        </div>
+        </div>
+</body>
+</html>
